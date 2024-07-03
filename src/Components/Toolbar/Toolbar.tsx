@@ -30,7 +30,7 @@ const Toolbar: React.FC = () => {
           {pages.map((page) => (
             <li key={page} className="nav-item">
               <NavLink to={`pages/${page}`} className="nav-link">
-                {page}
+                {page.charAt(0).toUpperCase() + page.slice(1)}
               </NavLink>
             </li>
           ))}
