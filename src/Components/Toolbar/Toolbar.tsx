@@ -35,12 +35,12 @@ const Toolbar: React.FC = () => {
             </li>
           ))}
           <li className="nav-item">
-            <NavLink to="/" className="nav-link">
+            <NavLink to="/create" className="nav-link">
               Создать
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/" className="nav-link">
+            <NavLink to="/edit" className="nav-link">
               Редактировать
             </NavLink>
           </li>
