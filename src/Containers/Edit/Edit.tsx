@@ -91,6 +91,7 @@ const Edit = () => {
           <Form.Group controlId="title" className="fs-3">
             <Form.Label>Заголовок</Form.Label>
             <Form.Control
+              required
               type="text"
               name="title"
               placeholder="Введите новый заголовок"
@@ -101,6 +102,7 @@ const Edit = () => {
           <Form.Group className="mt-4 fs-3" controlId="textArea">
             <Form.Label>Контент</Form.Label>
             <Form.Control
+              required
               as="textarea"
               placeholder="Введите новый контент"
               rows={4}
